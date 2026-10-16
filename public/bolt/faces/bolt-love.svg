@@ -1,0 +1,130 @@
+<svg class="d1bolt face-love" viewBox="-12 -14 194 206" xmlns="http://www.w3.org/2000/svg" width="194" height="206">
+<style>.d1bolt .fx{display:none}
+.d1bolt.face-happy .e-happy,.d1bolt.face-happy .m-smile,.d1bolt.face-happy .cheek,.d1bolt.face-happy .a-wave{display:inline}
+.d1bolt.face-talk .e-happy,.d1bolt.face-talk .m-talk,.d1bolt.face-talk .cheek,.d1bolt.face-talk .a-wave{display:inline}
+.d1bolt.face-cheer .e-cheer,.d1bolt.face-cheer .m-grin,.d1bolt.face-cheer .cheek,.d1bolt.face-cheer .a-up,.d1bolt.face-cheer .spark{display:inline}
+.d1bolt.face-surprise .e-surprise,.d1bolt.face-surprise .m-o,.d1bolt.face-surprise .a-up{display:inline}
+.d1bolt.face-think .e-think,.d1bolt.face-think .m-dots,.d1bolt.face-think .a-chin{display:inline}
+.d1bolt.face-sad .e-sad,.d1bolt.face-sad .m-frown,.d1bolt.face-sad .a-down{display:inline}
+.d1bolt.face-wink .e-wink,.d1bolt.face-wink .m-smile,.d1bolt.face-wink .cheek,.d1bolt.face-wink .a-wave{display:inline}
+.d1bolt.face-love .e-love,.d1bolt.face-love .m-grin,.d1bolt.face-love .cheek,.d1bolt.face-love .a-up,.d1bolt.face-love .spark{display:inline}
+.d1bolt .whole{transform-box:view-box;transform-origin:85px 180px;animation:bBreathe 3.4s ease-in-out infinite}
+.d1bolt.face-cheer .whole,.d1bolt.face-love .whole{animation:bHop .3s ease-in-out 6 alternate,bBreathe 3.4s ease-in-out 1.8s infinite}
+.d1bolt.face-surprise .whole{animation:bJolt .5s cubic-bezier(.2,1.8,.4,1) 1}
+.d1bolt.face-talk .whole{animation:bNod .45s ease-in-out infinite alternate}
+.d1bolt.face-think .whole{animation:bTilt 2.2s ease-in-out infinite}
+.d1bolt.face-sad .whole{animation:bSag 3.6s ease-in-out infinite}
+.d1bolt.face-wink .whole{animation:bWinkTilt .7s ease-out 1}
+@keyframes bBreathe{0%,100%{transform:translateY(0) scale(1,1)}50%{transform:translateY(-3px) scale(1.012,.988)}}
+@keyframes bHop{0%{transform:translateY(0) scale(1.05,.95)}100%{transform:translateY(-14px) scale(.97,1.04)}}
+@keyframes bJolt{0%{transform:scale(1)}30%{transform:translateY(-9px) scale(.94,1.08)}100%{transform:scale(1)}}
+@keyframes bNod{0%{transform:rotate(-1.6deg)}100%{transform:rotate(1.6deg) translateY(-2px)}}
+@keyframes bTilt{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(-2deg)}}
+@keyframes bSag{0%,100%{transform:translateY(3px) rotate(-2deg)}50%{transform:translateY(5px) rotate(1.5deg)}}
+@keyframes bWinkTilt{0%{transform:rotate(0)}40%{transform:rotate(-7deg)}100%{transform:rotate(0)}}
+.d1bolt .ant{transform-box:view-box;transform-origin:88px 40px;animation:bSway 2.8s ease-in-out infinite}
+.d1bolt.face-cheer .ant,.d1bolt.face-love .ant{animation-duration:.6s}
+.d1bolt.face-surprise .ant{animation:bBoing .6s cubic-bezier(.2,1.8,.4,1) 1}
+.d1bolt.face-sad .ant{animation:none;transform:rotate(-22deg)}
+@keyframes bSway{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+@keyframes bBoing{0%{transform:rotate(0)}25%{transform:rotate(-18deg)}55%{transform:rotate(12deg)}80%{transform:rotate(-5deg)}100%{transform:rotate(0)}}
+.d1bolt .oglow{animation:bGlow 2s ease-in-out infinite}
+.d1bolt.face-talk .oglow,.d1bolt.face-think .oglow{animation-duration:.45s}
+@keyframes bGlow{0%,100%{opacity:.15}50%{opacity:.6}}
+.d1bolt .bl1{transform-box:view-box;transform-origin:85px 76px;animation:bBlink 4.6s infinite}
+.d1bolt .bl2{transform-box:view-box;transform-origin:85px 76px;animation:bBlink2 6.7s infinite}
+.d1bolt.face-surprise .bl1,.d1bolt.face-surprise .bl2,.d1bolt.face-love .bl1,.d1bolt.face-love .bl2{animation:none}
+@keyframes bBlink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.08)}}
+@keyframes bBlink2{0%,96%,100%{transform:scaleY(1)}97.5%{transform:scaleY(.08)}}
+.d1bolt .m-talk{transform-box:fill-box;transform-origin:center;animation:bMouth .17s ease-in-out infinite alternate}
+@keyframes bMouth{0%{transform:scaleY(.2)}100%{transform:scaleY(1)}}
+.d1bolt .a-wave.arm-l{transform-box:view-box;transform-origin:34px 98px;animation:bWave .9s ease-in-out infinite alternate}
+.d1bolt.face-talk .a-wave.arm-l{animation-duration:1.6s}
+.d1bolt .a-wave.arm-r{transform-box:view-box;transform-origin:140px 114px;animation:bRest 3s ease-in-out infinite alternate}
+.d1bolt .a-up.arm-l{transform-box:view-box;transform-origin:34px 94px;animation:bPumpL .3s ease-in-out infinite alternate}
+.d1bolt .a-up.arm-r{transform-box:view-box;transform-origin:136px 94px;animation:bPumpR .3s ease-in-out infinite alternate}
+.d1bolt .a-down{transform-box:view-box;transform-origin:85px 108px;animation:bDangle 3.6s ease-in-out infinite alternate}
+.d1bolt .a-chin.arm-r{transform-box:view-box;transform-origin:139px 116px;animation:bTap .5s ease-in-out infinite alternate}
+@keyframes bWave{0%{transform:rotate(-16deg)}100%{transform:rotate(12deg)}}
+@keyframes bRest{0%{transform:rotate(0)}100%{transform:rotate(8deg)}}
+@keyframes bPumpL{0%{transform:rotate(-8deg)}100%{transform:rotate(7deg)}}
+@keyframes bPumpR{0%{transform:rotate(8deg)}100%{transform:rotate(-7deg)}}
+@keyframes bDangle{0%{transform:rotate(-2deg)}100%{transform:rotate(2deg)}}
+@keyframes bTap{0%{transform:rotate(0)}100%{transform:rotate(-5deg)}}
+.d1bolt .spark{transform-box:fill-box;transform-origin:center;animation:bTwinkle 1s ease-in-out infinite}
+.d1bolt .sp2{animation-delay:.25s}.d1bolt .sp3{animation-delay:.5s}.d1bolt .sp4{animation-delay:.75s}
+@keyframes bTwinkle{0%,100%{transform:scale(.3) rotate(0);opacity:.2}50%{transform:scale(1.15) rotate(45deg);opacity:1}}
+.d1bolt .td{animation:bDot 1s ease-in-out infinite}
+.d1bolt .td2{animation-delay:.18s}.d1bolt .td3{animation-delay:.36s}
+@keyframes bDot{0%,70%,100%{opacity:.25;transform:translateY(0)}35%{opacity:1;transform:translateY(-3px)}}
+.d1bolt .scan{animation:bScan 3.2s linear infinite}
+@keyframes bScan{0%{transform:translateY(0)}100%{transform:translateY(58px)}}
+.d1bolt .shadow{transform-box:view-box;transform-origin:85px 181px;animation:bShadow 3.4s ease-in-out infinite}
+.d1bolt.face-cheer .shadow,.d1bolt.face-love .shadow{animation:bShadowHop .3s ease-in-out 6 alternate}
+@keyframes bShadow{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.94)}}
+@keyframes bShadowHop{0%{transform:scaleX(1)}100%{transform:scaleX(.72);opacity:.1}}
+.d1bolt .cheek{animation:bCheek 3s ease-in-out infinite}
+@keyframes bCheek{0%,100%{opacity:.4}50%{opacity:.7}}
+.d1bolt .e-love{transform-box:fill-box;transform-origin:center;animation:bBeat .55s ease-in-out infinite}
+@keyframes bBeat{0%,100%{transform:scale(1)}50%{transform:scale(1.18)}}
+@media (prefers-reduced-motion: reduce){.d1bolt *{animation:none !important}}</style>
+<defs>
+<linearGradient id="floveBody" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#FFC94D"></stop><stop offset=".45" stop-color="#FFAA1F"></stop><stop offset="1" stop-color="#E37E06"></stop></linearGradient>
+<radialGradient id="floveShine" cx=".3" cy=".22" r=".55"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".75"></stop><stop offset=".35" stop-color="#FFF3D6" stop-opacity=".28"></stop><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"></stop></radialGradient>
+<radialGradient id="floveScreen" cx=".45" cy=".35" r=".8"><stop offset="0" stop-color="#1D2433"></stop><stop offset="1" stop-color="#04060A"></stop></radialGradient>
+<radialGradient id="floveBlack" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#5A6272"></stop><stop offset=".35" stop-color="#1E222B"></stop><stop offset="1" stop-color="#05070A"></stop></radialGradient>
+<radialGradient id="floveOrb" cx=".38" cy=".32" r=".7"><stop offset="0" stop-color="#E8FBFF"></stop><stop offset=".35" stop-color="#7FD9FF"></stop><stop offset="1" stop-color="#1C82D4"></stop></radialGradient>
+<radialGradient id="floveArm" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#FFD877"></stop><stop offset=".55" stop-color="#FFAA1F"></stop><stop offset="1" stop-color="#D97404"></stop></radialGradient>
+<filter id="floveGlow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="2.4" result="g"></feGaussianBlur><feMerge><feMergeNode in="g"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter>
+<clipPath id="floveClip"><rect x="38" y="52" width="94" height="62" rx="22"></rect></clipPath>
+</defs>
+<ellipse class="shadow" cx="85" cy="181" rx="50" ry="6" fill="#0A1426" opacity=".18"></ellipse>
+<g class="whole">
+<circle cx="64" cy="162" r="17" fill="url(#floveBlack)"></circle><ellipse cx="58" cy="155" rx="6" ry="4" fill="#FFFFFF" opacity=".35"></ellipse>
+<circle cx="108" cy="162" r="17" fill="url(#floveBlack)"></circle><ellipse cx="102" cy="155" rx="6" ry="4" fill="#FFFFFF" opacity=".35"></ellipse>
+<g class="ant">
+<path d="M88 40 C88 30 80 26 76 18" fill="none" stroke="#12151C" style="stroke-width: 5.5; stroke-linecap: round"></path>
+<circle class="oglow" cx="74" cy="13" r="16" fill="#5BC8F5" filter="url(#floveGlow)"></circle>
+<circle cx="74" cy="13" r="10" fill="url(#floveOrb)"></circle><ellipse cx="70" cy="9" rx="3.5" ry="2.4" fill="#FFFFFF" opacity=".85"></ellipse>
+</g>
+<g class="fx a-wave arm-l"><path d="M34 96 C26 88 22 78 22 70" fill="none" stroke="url(#floveArm)" style="stroke-width: 15; stroke-linecap: round"></path><circle cx="22" cy="62" r="9.5" fill="url(#floveBlack)"></circle><ellipse cx="19" cy="58" rx="3" ry="2" fill="#FFFFFF" opacity=".4"></ellipse></g>
+<g class="fx a-wave arm-r"><path d="M140 116 C148 118 154 122 156 128" fill="none" stroke="url(#floveArm)" style="stroke-width: 15; stroke-linecap: round"></path><circle cx="158" cy="134" r="9.5" fill="url(#floveBlack)"></circle><ellipse cx="155" cy="130" rx="3" ry="2" fill="#FFFFFF" opacity=".4"></ellipse></g>
+<g class="fx a-up arm-l"><path d="M34 92 C24 80 18 66 16 54" fill="none" stroke="url(#floveArm)" style="stroke-width: 15; stroke-linecap: round"></path><circle cx="15" cy="45" r="9.5" fill="url(#floveBlack)"></circle><ellipse cx="12" cy="41" rx="3" ry="2" fill="#FFFFFF" opacity=".4"></ellipse></g>
+<g class="fx a-up arm-r"><path d="M136 92 C146 80 152 66 154 54" fill="none" stroke="url(#floveArm)" style="stroke-width: 15; stroke-linecap: round"></path><circle cx="155" cy="45" r="9.5" fill="url(#floveBlack)"></circle><ellipse cx="152" cy="41" rx="3" ry="2" fill="#FFFFFF" opacity=".4"></ellipse></g>
+<g class="fx a-down"><path d="M32 108 C24 116 22 126 22 132" fill="none" stroke="url(#floveArm)" style="stroke-width: 15; stroke-linecap: round"></path><circle cx="22" cy="140" r="9.5" fill="url(#floveBlack)"></circle><ellipse cx="19" cy="136" rx="3" ry="2" fill="#FFFFFF" opacity=".4"></ellipse><path d="M138 108 C146 116 148 126 148 132" fill="none" stroke="url(#floveArm)" style="stroke-width: 15; stroke-linecap: round"></path><circle cx="148" cy="140" r="9.5" fill="url(#floveBlack)"></circle><ellipse cx="145" cy="136" rx="3" ry="2" fill="#FFFFFF" opacity=".4"></ellipse></g>
+<g class="fx a-chin"><path d="M32 108 C24 116 22 126 22 132" fill="none" stroke="url(#floveArm)" style="stroke-width: 15; stroke-linecap: round"></path><circle cx="22" cy="140" r="9.5" fill="url(#floveBlack)"></circle><ellipse cx="19" cy="136" rx="3" ry="2" fill="#FFFFFF" opacity=".4"></ellipse></g>
+<rect x="26" y="38" width="118" height="116" rx="42" fill="url(#floveBody)" stroke="#B5620A" style="stroke-width: 1.2"></rect>
+<rect x="26" y="38" width="118" height="116" rx="42" fill="url(#floveShine)"></rect>
+<path d="M40 140 Q85 156 130 140" fill="none" stroke="#C86A06" opacity=".35" style="stroke-width: 6; stroke-linecap: round"></path>
+<circle cx="31" cy="96" r="6" fill="#12151C"></circle><circle cx="139" cy="104" r="6" fill="#12151C"></circle>
+<circle cx="144" cy="80" r="8" fill="url(#floveArm)" stroke="#2E7FD6" style="stroke-width: 2"></circle>
+<rect x="38" y="52" width="94" height="62" rx="22" fill="url(#floveScreen)" stroke="#2A1A05" style="stroke-width: 1.5"></rect>
+<g clip-path="url(#floveClip)"><rect class="scan" x="38" y="50" width="94" height="5" fill="#7FD6FF" opacity=".07"></rect></g>
+<path d="M48 60 Q70 54 96 56" fill="none" stroke="#FFFFFF" opacity=".14" style="stroke-width: 6; stroke-linecap: round"></path>
+<g class="look">
+<ellipse class="fx cheek" cx="49" cy="93" rx="6" ry="3.5" fill="#FF8AC4"></ellipse><ellipse class="fx cheek" cx="121" cy="93" rx="6" ry="3.5" fill="#FF8AC4"></ellipse>
+<g filter="url(#floveGlow)">
+<g class="bl1"><g class="bl2">
+<g class="fx e-happy"><path d="M53 80 Q61 68 69 80" fill="none" stroke="#7FD6FF" style="stroke-width: 6; stroke-linecap: round"></path><path d="M101 80 Q109 68 117 80" fill="none" stroke="#7FD6FF" style="stroke-width: 6; stroke-linecap: round"></path></g>
+<g class="fx e-cheer"><path d="M51 81 Q61 64 71 81" fill="none" stroke="#7FD6FF" style="stroke-width: 7; stroke-linecap: round"></path><path d="M99 81 Q109 64 119 81" fill="none" stroke="#7FD6FF" style="stroke-width: 7; stroke-linecap: round"></path></g>
+<g class="fx e-surprise"><circle cx="61" cy="75" r="8" fill="none" stroke="#7FD6FF" style="stroke-width: 5"></circle><circle cx="109" cy="75" r="8" fill="none" stroke="#7FD6FF" style="stroke-width: 5"></circle><circle cx="63" cy="73" r="2.4" fill="#7FD6FF"></circle><circle cx="111" cy="73" r="2.4" fill="#7FD6FF"></circle></g>
+<g class="fx e-think"><path d="M54 75 L68 72" fill="none" stroke="#7FD6FF" style="stroke-width: 6; stroke-linecap: round"></path><path d="M102 72 L116 75" fill="none" stroke="#7FD6FF" style="stroke-width: 6; stroke-linecap: round"></path></g>
+<g class="fx e-sad"><path d="M53 74 Q61 84 69 74" fill="none" stroke="#7FD6FF" style="stroke-width: 6; stroke-linecap: round"></path><path d="M101 74 Q109 84 117 74" fill="none" stroke="#7FD6FF" style="stroke-width: 6; stroke-linecap: round"></path></g>
+<g class="fx e-wink"><path d="M53 80 Q61 68 69 80" fill="none" stroke="#7FD6FF" style="stroke-width: 6; stroke-linecap: round"></path><path d="M102 76 L116 76" fill="none" stroke="#7FD6FF" style="stroke-width: 6; stroke-linecap: round"></path></g>
+</g></g>
+<g class="fx e-love"><path transform="translate(61 75)" d="M0 7 C-11 -1 -9 -10 -3 -9 C-1 -8.5 0 -7 0 -6 C0 -7 1 -8.5 3 -9 C9 -10 11 -1 0 7 Z" fill="#FF8AC4"></path><path transform="translate(109 75)" d="M0 7 C-11 -1 -9 -10 -3 -9 C-1 -8.5 0 -7 0 -6 C0 -7 1 -8.5 3 -9 C9 -10 11 -1 0 7 Z" fill="#FF8AC4"></path></g>
+<path class="fx m-smile" d="M72 92 Q85 104 98 92" fill="none" stroke="#7FD6FF" style="stroke-width: 6; stroke-linecap: round"></path>
+<path class="fx m-grin" d="M70 91 Q85 111 100 91 Z" fill="#7FD6FF" stroke="#7FD6FF" style="stroke-width: 3; stroke-linejoin: round"></path>
+<ellipse class="fx m-talk" cx="85" cy="97" rx="8" ry="6.5" fill="#7FD6FF"></ellipse>
+<circle class="fx m-o" cx="85" cy="98" r="5" fill="none" stroke="#7FD6FF" style="stroke-width: 4"></circle>
+<g class="fx m-dots"><circle class="td" cx="75" cy="99" r="3.2" fill="#7FD6FF"></circle><circle class="td td2" cx="85" cy="99" r="3.2" fill="#7FD6FF"></circle><circle class="td td3" cx="95" cy="99" r="3.2" fill="#7FD6FF"></circle></g>
+<path class="fx m-frown" d="M75 101 Q85 93 95 101" fill="none" stroke="#7FD6FF" style="stroke-width: 5; stroke-linecap: round"></path>
+</g>
+</g>
+<path d="M70 136 L82 120 L87 126 L91 121 L101 136 Z" fill="#14161B"></path>
+<path d="M82 120 L79 125 L83 124 L85 127 L87 126 Z" fill="#FFAA1F"></path>
+<text x="85" y="147" text-anchor="middle" fill="#14161B" style="font: 800 10px Inter, Arial, sans-serif; letter-spacing: .5px">DELTA 1</text>
+<g class="fx a-chin arm-r"><path d="M139 116 C152 116 150 104 136 106" fill="none" stroke="url(#floveArm)" style="stroke-width: 15; stroke-linecap: round"></path><circle cx="128" cy="108" r="9.5" fill="url(#floveBlack)"></circle><ellipse cx="125" cy="104" rx="3" ry="2" fill="#FFFFFF" opacity=".4"></ellipse></g>
+<path class="fx spark " d="M14 20 L16.240000000000002 28 L14 36 L11.76 28 Z M6 28 L14 25.759999999999998 L22 28 L14 30.240000000000002 Z" fill="#FFE08A"></path><path class="fx spark sp2" d="M158 13 L160.52 22 L158 31 L155.48 22 Z M149 22 L158 19.48 L167 22 L158 24.52 Z" fill="#FFE08A"></path><path class="fx spark sp3" d="M166 68 L167.68 74 L166 80 L164.32 74 Z M160 74 L166 72.32 L172 74 L166 75.68 Z" fill="#FFE08A"></path><path class="fx spark sp4" d="M4 78 L5.68 84 L4 90 L2.32 84 Z M-2 84 L4 82.32 L10 84 L4 85.68 Z" fill="#FFE08A"></path>
+</g>
+</svg>

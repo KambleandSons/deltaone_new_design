@@ -1,0 +1,64 @@
+import React from 'react';
+
+export default function SvgDefs() {
+  return (
+    <svg width="0" height="0" style={{ position: 'absolute' }} aria-hidden="true" focusable="false">
+      <defs>
+        <linearGradient id="mbShade" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#000000" stopOpacity="0"></stop>
+          <stop offset=".55" stopColor="#000000" stopOpacity=".06"></stop>
+          <stop offset="1" stopColor="#000000" stopOpacity=".38"></stop>
+        </linearGradient>
+        <radialGradient id="mbShine" cx=".3" cy=".22" r=".6">
+          <stop offset="0" stopColor="#FFFFFF" stopOpacity=".8"></stop>
+          <stop offset=".4" stopColor="#FFFFFF" stopOpacity=".22"></stop>
+          <stop offset="1" stopColor="#FFFFFF" stopOpacity="0"></stop>
+        </radialGradient>
+        <radialGradient id="mbBlack" cx=".35" cy=".3" r=".75">
+          <stop offset="0" stopColor="#5A6272"></stop>
+          <stop offset=".4" stopColor="#1E222B"></stop>
+          <stop offset="1" stopColor="#05070A"></stop>
+        </radialGradient>
+        <radialGradient id="mbOrb" cx=".38" cy=".32" r=".7">
+          <stop offset="0" stopColor="#E8FBFF"></stop>
+          <stop offset=".4" stopColor="#7FD9FF"></stop>
+          <stop offset="1" stopColor="#1C82D4"></stop>
+        </radialGradient>
+        <linearGradient id="mbGold" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stopColor="#FFF0B3"></stop>
+          <stop offset=".5" stopColor="#FFC93C"></stop>
+          <stop offset="1" stopColor="#C98A00"></stop>
+        </linearGradient>
+        <symbol id="mbolt" viewBox="0 0 40 46">
+          <ellipse cx="20" cy="44" rx="12" ry="2" fill="#0A1426" opacity=".2"></ellipse>
+          <circle cx="14.5" cy="38.6" r="4.7" fill="url(#mbBlack)"></circle>
+          <circle cx="25.5" cy="38.6" r="4.7" fill="url(#mbBlack)"></circle>
+          <ellipse cx="13" cy="36.8" rx="1.6" ry="1" fill="#FFFFFF" opacity=".35"></ellipse>
+          <ellipse cx="24" cy="36.8" rx="1.6" ry="1" fill="#FFFFFF" opacity=".35"></ellipse>
+          <path d="M21 9 C21 6 19.2 5 18.2 3.2" fill="none" stroke="#12151C" strokeWidth="1.7" strokeLinecap="round"></path>
+          <circle cx="17.8" cy="2.8" r="2.6" fill="url(#mbOrb)"></circle>
+          <circle cx="17" cy="2" r=".8" fill="#FFFFFF" opacity=".9"></circle>
+          <circle cx="4.6" cy="23.5" r="3.4" fill="currentColor"></circle>
+          <circle cx="4.6" cy="23.5" r="3.4" fill="url(#mbShade)"></circle>
+          <circle cx="35.4" cy="23.5" r="3.4" fill="currentColor"></circle>
+          <circle cx="35.4" cy="23.5" r="3.4" fill="url(#mbShade)"></circle>
+          <rect x="5" y="8" width="30" height="29.5" rx="11" fill="currentColor"></rect>
+          <rect x="5" y="8" width="30" height="29.5" rx="11" fill="url(#mbShade)"></rect>
+          <rect x="5" y="8" width="30" height="29.5" rx="11" fill="url(#mbShine)"></rect>
+          <rect x="5" y="8" width="30" height="29.5" rx="11" fill="none" stroke="#000000" strokeOpacity=".25" strokeWidth=".8"></rect>
+          <rect x="9" y="12.4" width="22" height="13.4" rx="5.2" fill="#0B0F18"></rect>
+          <path d="M12 15.6 Q17 14 23 14.6" fill="none" stroke="#FFFFFF" strokeOpacity=".16" strokeWidth="1.6" strokeLinecap="round"></path>
+          <path d="M13.4 20.6 Q15.5 17.4 17.6 20.6" fill="none" stroke="#7FD6FF" strokeWidth="1.9" strokeLinecap="round"></path>
+          <path d="M22.4 20.6 Q24.5 17.4 26.6 20.6" fill="none" stroke="#7FD6FF" strokeWidth="1.9" strokeLinecap="round"></path>
+          <path d="M17.4 23 Q20 25.2 22.6 23" fill="none" stroke="#7FD6FF" strokeWidth="1.5" strokeLinecap="round"></path>
+          <path d="M16.6 34.2 L20 29.4 L23.4 34.2 Z" fill="#14161B" opacity=".72"></path>
+        </symbol>
+        <symbol id="mcrown" viewBox="0 0 40 46">
+          <path d="M23.2 8.6 L24 2.6 L27.2 5.6 L28.8 0.8 L30.4 5.6 L33.6 2.6 L34.4 8.6 Z" fill="url(#mbGold)" stroke="#8A5E00" strokeWidth=".7" strokeLinejoin="round"></path>
+          <circle cx="28.8" cy="0.9" r="1" fill="#FFF0B3"></circle>
+        </symbol>
+      </defs>
+    </svg>
+  );
+}
+
